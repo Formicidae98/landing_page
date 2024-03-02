@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: roboto;
 }
 
 .first-section {
@@ -21,4 +22,10 @@ ul {
   display: flex;
   gap: 20px;
 }
+
+li {
+  font-size: 18px;
+  color: #e5e7eb;
+} 
+/* second section */
 
