@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-section {
+  background-color: #1f2937;
+  font-size: 24px;
+  color: #f8faf8;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
