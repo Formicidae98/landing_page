@@ -70,6 +70,43 @@ h1 {
 }
 
 img{
-width: 250px;
+  width: 250px;
+/* max-width: 100%;
+height: auto; */
 }
 
+/* third section */
+
+.third_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  color: #1f2937;
+  margin: 20px;
+}
+
+.boxes {
+  border: 3px solid #3882f6;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  flex-direction: column;
+}
+
+.para {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column; */
+}
