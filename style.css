@@ -5,108 +5,184 @@
   box-sizing: border-box;
 }
 
-.first-section {
+.header, .section {
   background-color: #1f2937;
-  font-size: 24px;
-  color: #f8faf8;
-  padding: 20px;
+  padding-bottom: 50px;
 }
 
-.navbar {
+.hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding-top: 20px;
 }
 
-ul {
+.hero h2 {
+  color: #f8faf8;
+  font-size: 24px;
+}
+
+.navbar ul {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
 }
 
-li {
-  font-size: 18px;
+.navbar ul li:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+  font-size: 18p;
   color: #e5e7eb;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+img:hover {
+  opacity: 0.5;
+  border: 1px solid #3882f6;
 }
 
 /* second section */
 
-.cover {
+.sec-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
   background-color: #1f2937;
-  display: flex;
-  /* justify-content: flex-end;
-  align-items: flex-start; */
-  padding-left: 30px;
-  flex-direction: column;
-  
-}
-
-.cover-left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 h1 {
   font-size: 48px;
-  font-weight: bolder;
-  color: #f9faf8;
-  margin-bottom: 10px;
+  color: #f8faf8;
+  padding-bottom: 10px;
 }
 
-.second-p {
+.sec-1 p {
   font-size: 18px;
-  color: #f9faf8;
+  color: #f8faf8;
+  padding-bottom: 20px;
 }
 
-.cover-btn {
+.sec-1 button {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
   background-color: #3882f6;
-  color: #fff;
-  border: 2px solid #3882f6;
-  width: 10%;
-  padding: 5px;
-  border-radius: 5px;
-  margin-top: 10px;
+  color: #e5e7eb;
 }
-
-img{
-  width: 250px;
-/* max-width: 100%;
-height: auto; */
+.container img {
+  height: 250px;
+  /* width: 250px; */
 }
 
 /* third section */
 
-.third_section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* flex-direction: column; */
-}
-
-h2 {
-  font-size: 36px;
-  font-weight: bolder;
+.sec-2 h2 {
   text-align: center;
-  color: #1f2937;
-  margin: 20px;
 }
 
-.boxes {
-  border: 3px solid #3882f6;
-  height: 100px;
+.sec-2 {
+  padding: 30px;
+}
+
+.box {
   width: 100px;
-  border-radius: 5px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  display: flex;
-  flex-direction: column;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.para {
-  /* display: flex;
-  justify-content: space-between;
+.main-box {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column; */
+  padding-top: 25px;
+  text-align: center;
 }
+
+.boxes p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+
+/* 4th section */
+
+.sec-4 {
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 50px;
+}
+
+.quote q {
+  color: #1f2937;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.quote span {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+  font-style: italic;
+}
+
+.sec-5 {
+  /* background-color: #3882f6; */
+  padding: 40px;
+  /* text-align: center; */
+}
+
+.btn-text {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #3882f6;
+ border-radius: 10px;
+ padding: 40px;
+ color: #fff;
+}
+
+.btn-text h4 {
+  font-size: 20px;
+}
+
+.btn-text p {
+  color: #e7e3e3;
+  font-size: 15px;
+}
+
+.btn-sec-5 {
+  padding: 3px;
+  border: solid #fff 1px;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+
+           /* now add some hover effect and chill */
