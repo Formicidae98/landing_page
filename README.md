@@ -1,2 +1,3 @@
 # Landing Page #
-<mark>Image credit:</mark> 
+final look:
+<img src="/images/final look.jpg">
